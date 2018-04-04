@@ -1,0 +1,74 @@
+{
+"shop":{
+    "id":12312421,
+    
+    "ownner":{
+        "name":"周华磊",
+        "tel":"15072357587",
+        "addr":"软件园",
+        "date":"20180101",
+        "pswd":"xx"
+    },
+    
+    "banner":[
+        {
+            "url":"xxx",
+            "img":"xxx.jpg"
+        },
+        {
+            "url":"xxx",
+            "img":"xxx.jpg"
+        }
+    ],
+
+    "shortcut":[
+        {
+            "url":"xxx",
+            "img":"xxx.jpg",
+            "txt":"xxx"
+        }
+    ],
+
+    "goods":[
+        {
+            "id":12312421,
+            "track":{
+                "hit":5000,
+                "collect":300,
+                "sale":100
+            },
+            "brief":{
+                "icon":"xxx.jpg",
+                "desc":"xxxx",
+                "price":123,
+                "character":"xxx"
+            },
+
+            "details":{
+                "banner-imgs":[
+                    "xxx.jpg","xxx.jpg"
+                ],
+
+                "show":[
+                    {
+                        "mine":"image",
+                        "payload":"xxxx.jpg"
+                    },
+                    {
+                        "mine":"video",
+                        "payload":"xxxx.mp4"
+                    },
+                    {
+                        "mine":"text",
+                        "payload":"xxxxxxx"
+                    },
+                    {
+                        "mine":"text/rich",
+                        "payload":"xxxxxxx"
+                    }
+                ]
+            }
+        }
+    ]
+}
+}
