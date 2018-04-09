@@ -1,0 +1,339 @@
+2018-04-08T21:03:50.070+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-04-08T21:03:50.515+0800 I CONTROL  [initandlisten] MongoDB starting : pid=10072 port=27017 dbpath=./data/db 64-bit host=DESKTOP-9L99BQC
+2018-04-08T21:03:50.515+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2018-04-08T21:03:50.515+0800 I CONTROL  [initandlisten] db version v3.6.3
+2018-04-08T21:03:50.515+0800 I CONTROL  [initandlisten] git version: 9586e557d54ef70f9ca4b43c26892cd55257e1a5
+2018-04-08T21:03:50.515+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2018-04-08T21:03:50.515+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-04-08T21:03:50.515+0800 I CONTROL  [initandlisten] modules: none
+2018-04-08T21:03:50.517+0800 I CONTROL  [initandlisten] build environment:
+2018-04-08T21:03:50.517+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2018-04-08T21:03:50.517+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2018-04-08T21:03:50.517+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-04-08T21:03:50.518+0800 I CONTROL  [initandlisten] options: { config: ".\mogodb.conf", net: { port: 27017 }, storage: { dbPath: "./data/db" }, systemLog: { destination: "file", logAppend: true, path: "./log/mongodb.log" } }
+2018-04-08T21:03:50.523+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1498M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-04-08T21:03:50.716+0800 I CONTROL  [initandlisten] 
+2018-04-08T21:03:50.716+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-04-08T21:03:50.716+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-04-08T21:03:50.716+0800 I CONTROL  [initandlisten] 
+2018-04-08T21:03:50.716+0800 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-04-08T21:03:50.716+0800 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-04-08T21:03:50.716+0800 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-04-08T21:03:50.716+0800 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-04-08T21:03:50.716+0800 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-04-08T21:03:50.716+0800 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-04-08T21:03:50.716+0800 I CONTROL  [initandlisten] 
+2018-04-08T21:03:50.717+0800 I CONTROL  [initandlisten] 
+2018-04-08T21:03:50.717+0800 I CONTROL  [initandlisten] ** WARNING: The file system cache of this machine is configured to be greater than 40% of the total memory. This can lead to increased memory pressure and poor performance.
+2018-04-08T21:03:50.718+0800 I CONTROL  [initandlisten] See http://dochub.mongodb.org/core/wt-windows-system-file-cache
+2018-04-08T21:03:50.718+0800 I CONTROL  [initandlisten] 
+2018-04-08T21:03:50.719+0800 I STORAGE  [initandlisten] createCollection: admin.system.version with provided UUID: d9d20e7a-505e-4b2a-baab-73c818323bd1
+2018-04-08T21:03:50.749+0800 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.6
+2018-04-08T21:03:50.754+0800 I STORAGE  [initandlisten] createCollection: local.startup_log with generated UUID: 93b52acd-2adf-4488-a3ec-42226ea70cd2
+2018-04-08T21:03:51.576+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory './data/db/diagnostic.data'
+2018-04-08T21:03:51.579+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-04-08T21:04:21.043+0800 I CONTROL  [thread1] Ctrl-C signal
+2018-04-08T21:04:21.043+0800 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2018-04-08T21:04:21.043+0800 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2018-04-08T21:04:21.044+0800 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2018-04-08T21:04:21.050+0800 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2018-04-08T21:04:21.180+0800 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2018-04-08T21:04:21.180+0800 I CONTROL  [consoleTerminate] now exiting
+2018-04-08T21:04:21.181+0800 I CONTROL  [consoleTerminate] shutting down with code:12
+2018-04-08T21:04:24.884+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-04-08T21:04:25.333+0800 I CONTROL  [initandlisten] MongoDB starting : pid=4500 port=27017 dbpath=.\data\db 64-bit host=DESKTOP-9L99BQC
+2018-04-08T21:04:25.334+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2018-04-08T21:04:25.334+0800 I CONTROL  [initandlisten] db version v3.6.3
+2018-04-08T21:04:25.334+0800 I CONTROL  [initandlisten] git version: 9586e557d54ef70f9ca4b43c26892cd55257e1a5
+2018-04-08T21:04:25.334+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2018-04-08T21:04:25.334+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-04-08T21:04:25.334+0800 I CONTROL  [initandlisten] modules: none
+2018-04-08T21:04:25.334+0800 I CONTROL  [initandlisten] build environment:
+2018-04-08T21:04:25.334+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2018-04-08T21:04:25.334+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2018-04-08T21:04:25.334+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-04-08T21:04:25.334+0800 I CONTROL  [initandlisten] options: { config: ".\mogodb.conf", net: { port: 27017 }, storage: { dbPath: ".\data\db" }, systemLog: { destination: "file", logAppend: true, path: ".\log\mongodb.log" } }
+2018-04-08T21:04:25.339+0800 I -        [initandlisten] Detected data files in .\data\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-04-08T21:04:25.339+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1498M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-04-08T21:04:25.578+0800 I STORAGE  [initandlisten] WiredTiger message [1523192665:577780][4500:140720555516240], txn-recover: Main recovery loop: starting at 1/13184
+2018-04-08T21:04:25.757+0800 I STORAGE  [initandlisten] WiredTiger message [1523192665:757258][4500:140720555516240], txn-recover: Recovering log 1 through 2
+2018-04-08T21:04:25.899+0800 I STORAGE  [initandlisten] WiredTiger message [1523192665:899636][4500:140720555516240], txn-recover: Recovering log 2 through 2
+2018-04-08T21:04:26.098+0800 I CONTROL  [initandlisten] 
+2018-04-08T21:04:26.098+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-04-08T21:04:26.098+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-04-08T21:04:26.098+0800 I CONTROL  [initandlisten] 
+2018-04-08T21:04:26.099+0800 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-04-08T21:04:26.099+0800 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-04-08T21:04:26.099+0800 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-04-08T21:04:26.099+0800 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-04-08T21:04:26.099+0800 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-04-08T21:04:26.099+0800 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-04-08T21:04:26.099+0800 I CONTROL  [initandlisten] 
+2018-04-08T21:04:26.099+0800 I CONTROL  [initandlisten] 
+2018-04-08T21:04:26.099+0800 I CONTROL  [initandlisten] ** WARNING: The file system cache of this machine is configured to be greater than 40% of the total memory. This can lead to increased memory pressure and poor performance.
+2018-04-08T21:04:26.099+0800 I CONTROL  [initandlisten] See http://dochub.mongodb.org/core/wt-windows-system-file-cache
+2018-04-08T21:04:26.099+0800 I CONTROL  [initandlisten] 
+2018-04-08T21:04:26.798+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory './data/db/diagnostic.data'
+2018-04-08T21:04:26.801+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-04-08T21:05:15.819+0800 I CONTROL  [thread1] Ctrl-C signal
+2018-04-08T21:05:15.819+0800 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2018-04-08T21:05:15.819+0800 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2018-04-08T21:05:15.820+0800 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2018-04-08T21:05:15.827+0800 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2018-04-08T21:05:15.981+0800 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2018-04-08T21:05:15.982+0800 I CONTROL  [consoleTerminate] now exiting
+2018-04-08T21:05:15.982+0800 I CONTROL  [consoleTerminate] shutting down with code:12
+2018-04-08T21:05:55.097+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-04-08T21:05:55.550+0800 I CONTROL  [initandlisten] MongoDB starting : pid=10064 port=27017 dbpath=.\data\db 64-bit host=DESKTOP-9L99BQC
+2018-04-08T21:05:55.550+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2018-04-08T21:05:55.550+0800 I CONTROL  [initandlisten] db version v3.6.3
+2018-04-08T21:05:55.550+0800 I CONTROL  [initandlisten] git version: 9586e557d54ef70f9ca4b43c26892cd55257e1a5
+2018-04-08T21:05:55.550+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2018-04-08T21:05:55.550+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-04-08T21:05:55.550+0800 I CONTROL  [initandlisten] modules: none
+2018-04-08T21:05:55.550+0800 I CONTROL  [initandlisten] build environment:
+2018-04-08T21:05:55.551+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2018-04-08T21:05:55.551+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2018-04-08T21:05:55.551+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-04-08T21:05:55.551+0800 I CONTROL  [initandlisten] options: { config: ".\mongodb.conf", net: { port: 27017 }, storage: { dbPath: ".\data\db" }, systemLog: { destination: "file", logAppend: true, path: ".\log\mongodb.log" } }
+2018-04-08T21:05:55.555+0800 I -        [initandlisten] Detected data files in .\data\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-04-08T21:05:55.556+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1498M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-04-08T21:05:55.784+0800 I STORAGE  [initandlisten] WiredTiger message [1523192755:784576][10064:140720555516240], txn-recover: Main recovery loop: starting at 2/4736
+2018-04-08T21:05:55.948+0800 I STORAGE  [initandlisten] WiredTiger message [1523192755:948012][10064:140720555516240], txn-recover: Recovering log 2 through 3
+2018-04-08T21:05:56.048+0800 I STORAGE  [initandlisten] WiredTiger message [1523192756:48236][10064:140720555516240], txn-recover: Recovering log 3 through 3
+2018-04-08T21:05:56.212+0800 I CONTROL  [initandlisten] 
+2018-04-08T21:05:56.212+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-04-08T21:05:56.212+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-04-08T21:05:56.212+0800 I CONTROL  [initandlisten] 
+2018-04-08T21:05:56.212+0800 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-04-08T21:05:56.212+0800 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-04-08T21:05:56.212+0800 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-04-08T21:05:56.212+0800 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-04-08T21:05:56.212+0800 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-04-08T21:05:56.213+0800 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-04-08T21:05:56.213+0800 I CONTROL  [initandlisten] 
+2018-04-08T21:05:56.213+0800 I CONTROL  [initandlisten] 
+2018-04-08T21:05:56.213+0800 I CONTROL  [initandlisten] ** WARNING: The file system cache of this machine is configured to be greater than 40% of the total memory. This can lead to increased memory pressure and poor performance.
+2018-04-08T21:05:56.213+0800 I CONTROL  [initandlisten] See http://dochub.mongodb.org/core/wt-windows-system-file-cache
+2018-04-08T21:05:56.213+0800 I CONTROL  [initandlisten] 
+2018-04-08T21:05:56.940+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory './data/db/diagnostic.data'
+2018-04-08T21:05:56.943+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-04-08T21:19:35.390+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-04-08T21:19:36.223+0800 I CONTROL  [initandlisten] MongoDB starting : pid=11284 port=27017 dbpath=.\data\db 64-bit host=DESKTOP-9L99BQC
+2018-04-08T21:19:36.223+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2018-04-08T21:19:36.223+0800 I CONTROL  [initandlisten] db version v3.6.3
+2018-04-08T21:19:36.223+0800 I CONTROL  [initandlisten] git version: 9586e557d54ef70f9ca4b43c26892cd55257e1a5
+2018-04-08T21:19:36.224+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2018-04-08T21:19:36.224+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-04-08T21:19:36.224+0800 I CONTROL  [initandlisten] modules: none
+2018-04-08T21:19:36.224+0800 I CONTROL  [initandlisten] build environment:
+2018-04-08T21:19:36.224+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2018-04-08T21:19:36.224+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2018-04-08T21:19:36.224+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-04-08T21:19:36.226+0800 I CONTROL  [initandlisten] options: { config: ".\mongodb.conf", net: { port: 27017 }, storage: { dbPath: ".\data\db" }, systemLog: { destination: "file", logAppend: true, path: ".\log\mongodb.log" } }
+2018-04-08T21:19:36.227+0800 W -        [initandlisten] Detected unclean shutdown - .\data\db\mongod.lock is not empty.
+2018-04-08T21:19:36.241+0800 I -        [initandlisten] Detected data files in .\data\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-04-08T21:19:36.242+0800 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2018-04-08T21:19:36.244+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1498M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-04-08T21:19:36.720+0800 I STORAGE  [initandlisten] WiredTiger message [1523193576:719480][11284:140703342027088], txn-recover: Main recovery loop: starting at 3/3072
+2018-04-08T21:19:36.723+0800 I STORAGE  [initandlisten] WiredTiger message [1523193576:722490][11284:140703342027088], txn-recover: Recovering log 3 through 4
+2018-04-08T21:19:37.016+0800 I STORAGE  [initandlisten] WiredTiger message [1523193577:16341][11284:140703342027088], txn-recover: Recovering log 4 through 4
+2018-04-08T21:19:37.259+0800 I CONTROL  [initandlisten] 
+2018-04-08T21:19:37.259+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-04-08T21:19:37.259+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-04-08T21:19:37.259+0800 I CONTROL  [initandlisten] 
+2018-04-08T21:19:37.259+0800 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-04-08T21:19:37.259+0800 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-04-08T21:19:37.259+0800 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-04-08T21:19:37.259+0800 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-04-08T21:19:37.259+0800 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-04-08T21:19:37.259+0800 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-04-08T21:19:37.259+0800 I CONTROL  [initandlisten] 
+2018-04-08T21:19:37.260+0800 I CONTROL  [initandlisten] 
+2018-04-08T21:19:37.261+0800 I CONTROL  [initandlisten] ** WARNING: The file system cache of this machine is configured to be greater than 40% of the total memory. This can lead to increased memory pressure and poor performance.
+2018-04-08T21:19:37.261+0800 I CONTROL  [initandlisten] See http://dochub.mongodb.org/core/wt-windows-system-file-cache
+2018-04-08T21:19:37.261+0800 I CONTROL  [initandlisten] 
+2018-04-08T21:19:38.978+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory './data/db/diagnostic.data'
+2018-04-08T21:19:38.984+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-04-08T21:19:39.019+0800 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+2018-04-08T21:19:41.471+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:2845 #1 (1 connection now open)
+2018-04-08T21:19:41.484+0800 I NETWORK  [conn1] received client metadata from 127.0.0.1:2845 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v7.4.0, LE, mongodb-core: 3.0.4", application: { name: "MongoDB Compass Community" } }
+2018-04-08T21:19:42.962+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:2850 #2 (2 connections now open)
+2018-04-08T21:19:44.068+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:2852 #3 (3 connections now open)
+2018-04-08T21:19:45.262+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:2854 #4 (4 connections now open)
+2018-04-08T21:19:54.488+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:2870 #5 (5 connections now open)
+2018-04-08T21:19:59.949+0800 I NETWORK  [conn3] end connection 127.0.0.1:2852 (2 connections now open)
+2018-04-08T21:19:59.949+0800 I NETWORK  [conn1] end connection 127.0.0.1:2845 (3 connections now open)
+2018-04-08T21:19:59.950+0800 I NETWORK  [conn5] end connection 127.0.0.1:2870 (4 connections now open)
+2018-04-08T21:19:59.950+0800 I NETWORK  [conn2] end connection 127.0.0.1:2850 (1 connection now open)
+2018-04-08T21:19:59.950+0800 I NETWORK  [conn4] end connection 127.0.0.1:2854 (0 connections now open)
+2018-04-08T21:24:38.990+0800 I STORAGE  [thread6] createCollection: config.system.sessions with generated UUID: 37398d08-fff3-4a8a-b420-0e7587622918
+2018-04-08T21:24:39.041+0800 I INDEX    [thread6] build index on: config.system.sessions properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfterSeconds: 1800 }
+2018-04-08T21:24:39.041+0800 I INDEX    [thread6] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2018-04-08T21:24:39.048+0800 I INDEX    [thread6] build index done.  scanned 0 total records. 0 secs
+2018-04-09T20:40:55.543+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:6004 #6 (1 connection now open)
+2018-04-09T20:40:55.558+0800 I NETWORK  [conn6] received client metadata from 127.0.0.1:6004 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T20:41:27.441+0800 I STORAGE  [conn6] createCollection: easy_shop.ownners with generated UUID: a8b41bca-53a7-4248-b858-6cab8992b695
+2018-04-09T20:42:10.523+0800 I NETWORK  [conn6] end connection 127.0.0.1:6004 (0 connections now open)
+2018-04-09T20:55:51.091+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:6454 #7 (1 connection now open)
+2018-04-09T20:55:51.131+0800 I NETWORK  [conn7] received client metadata from 127.0.0.1:6454 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v7.4.0, LE, mongodb-core: 3.0.4", application: { name: "MongoDB Compass Community" } }
+2018-04-09T20:55:52.651+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:6459 #8 (2 connections now open)
+2018-04-09T20:55:53.674+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:6462 #9 (3 connections now open)
+2018-04-09T20:55:54.695+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:6464 #10 (4 connections now open)
+2018-04-09T20:55:55.709+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:6466 #11 (5 connections now open)
+2018-04-09T20:59:21.693+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:6566 #12 (6 connections now open)
+2018-04-09T20:59:21.713+0800 I NETWORK  [conn12] received client metadata from 127.0.0.1:6566 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T21:15:46.281+0800 I NETWORK  [conn12] end connection 127.0.0.1:6566 (5 connections now open)
+2018-04-09T21:25:37.431+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:7708 #13 (6 connections now open)
+2018-04-09T21:25:37.453+0800 I NETWORK  [conn13] received client metadata from 127.0.0.1:7708 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T21:27:08.075+0800 I NETWORK  [conn13] end connection 127.0.0.1:7708 (5 connections now open)
+2018-04-09T21:27:16.192+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:7773 #14 (6 connections now open)
+2018-04-09T21:27:16.207+0800 I NETWORK  [conn14] received client metadata from 127.0.0.1:7773 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T21:28:00.786+0800 I NETWORK  [conn14] end connection 127.0.0.1:7773 (5 connections now open)
+2018-04-09T21:28:10.663+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:7795 #15 (6 connections now open)
+2018-04-09T21:28:10.704+0800 I NETWORK  [conn15] received client metadata from 127.0.0.1:7795 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T21:43:13.945+0800 I NETWORK  [conn15] end connection 127.0.0.1:7795 (5 connections now open)
+2018-04-09T21:43:22.685+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:8135 #16 (6 connections now open)
+2018-04-09T21:43:22.693+0800 I NETWORK  [conn16] received client metadata from 127.0.0.1:8135 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T21:43:22.740+0800 I STORAGE  [conn16] createCollection: easy_shop.owners with generated UUID: 71b97bbf-0a74-4e69-a6eb-af6910c697da
+2018-04-09T21:57:28.639+0800 I NETWORK  [conn16] end connection 127.0.0.1:8135 (5 connections now open)
+2018-04-09T21:57:37.786+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:8416 #17 (6 connections now open)
+2018-04-09T21:57:37.809+0800 I NETWORK  [conn17] received client metadata from 127.0.0.1:8416 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T21:58:28.340+0800 I NETWORK  [conn17] end connection 127.0.0.1:8416 (5 connections now open)
+2018-04-09T21:58:36.803+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:8444 #18 (6 connections now open)
+2018-04-09T21:58:36.823+0800 I NETWORK  [conn18] received client metadata from 127.0.0.1:8444 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T21:59:13.558+0800 I NETWORK  [conn18] end connection 127.0.0.1:8444 (5 connections now open)
+2018-04-09T21:59:22.094+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:8462 #19 (6 connections now open)
+2018-04-09T21:59:22.109+0800 I NETWORK  [conn19] received client metadata from 127.0.0.1:8462 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T21:59:50.269+0800 I NETWORK  [conn19] end connection 127.0.0.1:8462 (5 connections now open)
+2018-04-09T21:59:58.009+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:8474 #20 (6 connections now open)
+2018-04-09T21:59:58.027+0800 I NETWORK  [conn20] received client metadata from 127.0.0.1:8474 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:00:37.210+0800 I NETWORK  [conn20] end connection 127.0.0.1:8474 (5 connections now open)
+2018-04-09T22:00:46.752+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:8489 #21 (6 connections now open)
+2018-04-09T22:00:46.773+0800 I NETWORK  [conn21] received client metadata from 127.0.0.1:8489 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:02:38.181+0800 I NETWORK  [conn21] end connection 127.0.0.1:8489 (5 connections now open)
+2018-04-09T22:02:47.060+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:8527 #22 (6 connections now open)
+2018-04-09T22:02:47.084+0800 I NETWORK  [conn22] received client metadata from 127.0.0.1:8527 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:03:42.341+0800 I NETWORK  [conn22] end connection 127.0.0.1:8527 (5 connections now open)
+2018-04-09T22:03:50.117+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:8558 #23 (6 connections now open)
+2018-04-09T22:03:50.136+0800 I NETWORK  [conn23] received client metadata from 127.0.0.1:8558 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:04:06.688+0800 I NETWORK  [conn23] end connection 127.0.0.1:8558 (5 connections now open)
+2018-04-09T22:04:15.090+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:8575 #24 (6 connections now open)
+2018-04-09T22:04:15.106+0800 I NETWORK  [conn24] received client metadata from 127.0.0.1:8575 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:04:45.213+0800 I NETWORK  [conn24] end connection 127.0.0.1:8575 (5 connections now open)
+2018-04-09T22:04:54.728+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:8593 #25 (6 connections now open)
+2018-04-09T22:04:54.739+0800 I NETWORK  [conn25] received client metadata from 127.0.0.1:8593 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:11:37.576+0800 I NETWORK  [conn25] end connection 127.0.0.1:8593 (5 connections now open)
+2018-04-09T22:11:46.678+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:8725 #26 (6 connections now open)
+2018-04-09T22:11:46.707+0800 I NETWORK  [conn26] received client metadata from 127.0.0.1:8725 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:11:49.941+0800 I NETWORK  [conn26] end connection 127.0.0.1:8725 (5 connections now open)
+2018-04-09T22:14:19.457+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:8767 #27 (6 connections now open)
+2018-04-09T22:14:19.473+0800 I NETWORK  [conn27] received client metadata from 127.0.0.1:8767 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:14:21.066+0800 I NETWORK  [conn27] end connection 127.0.0.1:8767 (5 connections now open)
+2018-04-09T22:14:47.384+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:8780 #28 (6 connections now open)
+2018-04-09T22:14:47.405+0800 I NETWORK  [conn28] received client metadata from 127.0.0.1:8780 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:15:36.687+0800 I NETWORK  [conn28] end connection 127.0.0.1:8780 (5 connections now open)
+2018-04-09T22:15:46.924+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:8806 #29 (6 connections now open)
+2018-04-09T22:15:46.940+0800 I NETWORK  [conn29] received client metadata from 127.0.0.1:8806 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:15:48.585+0800 I NETWORK  [conn29] end connection 127.0.0.1:8806 (5 connections now open)
+2018-04-09T22:17:01.507+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:8837 #30 (6 connections now open)
+2018-04-09T22:17:01.529+0800 I NETWORK  [conn30] received client metadata from 127.0.0.1:8837 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:17:03.146+0800 I NETWORK  [conn30] end connection 127.0.0.1:8837 (5 connections now open)
+2018-04-09T22:20:29.816+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9177 #31 (6 connections now open)
+2018-04-09T22:20:29.837+0800 I NETWORK  [conn31] received client metadata from 127.0.0.1:9177 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:20:31.408+0800 I NETWORK  [conn31] end connection 127.0.0.1:9177 (5 connections now open)
+2018-04-09T22:21:12.171+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9194 #32 (6 connections now open)
+2018-04-09T22:21:12.192+0800 I NETWORK  [conn32] received client metadata from 127.0.0.1:9194 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:21:16.832+0800 I NETWORK  [conn32] end connection 127.0.0.1:9194 (5 connections now open)
+2018-04-09T22:22:14.823+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9223 #33 (6 connections now open)
+2018-04-09T22:22:14.849+0800 I NETWORK  [conn33] received client metadata from 127.0.0.1:9223 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:23:03.537+0800 I NETWORK  [conn33] end connection 127.0.0.1:9223 (5 connections now open)
+2018-04-09T22:23:11.626+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9247 #34 (6 connections now open)
+2018-04-09T22:23:11.663+0800 I NETWORK  [conn34] received client metadata from 127.0.0.1:9247 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:23:16.512+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9252 #35 (7 connections now open)
+2018-04-09T22:24:03.773+0800 I NETWORK  [conn34] end connection 127.0.0.1:9247 (6 connections now open)
+2018-04-09T22:24:03.775+0800 I NETWORK  [conn35] end connection 127.0.0.1:9252 (5 connections now open)
+2018-04-09T22:24:12.019+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9266 #36 (6 connections now open)
+2018-04-09T22:24:12.053+0800 I NETWORK  [conn36] received client metadata from 127.0.0.1:9266 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:24:15.040+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9272 #37 (7 connections now open)
+2018-04-09T22:25:34.076+0800 I NETWORK  [conn37] end connection 127.0.0.1:9272 (6 connections now open)
+2018-04-09T22:25:34.076+0800 I NETWORK  [conn36] end connection 127.0.0.1:9266 (5 connections now open)
+2018-04-09T22:25:42.550+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9302 #38 (6 connections now open)
+2018-04-09T22:25:42.574+0800 I NETWORK  [conn38] received client metadata from 127.0.0.1:9302 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:25:45.719+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9307 #39 (7 connections now open)
+2018-04-09T22:25:45.721+0800 I STORAGE  [conn38] createCollection: easy_shop.shops with generated UUID: b990e785-9eca-485b-b3ba-cb2314afb96c
+2018-04-09T22:26:13.356+0800 I NETWORK  [conn8] end connection 127.0.0.1:6459 (6 connections now open)
+2018-04-09T22:26:13.356+0800 I NETWORK  [conn9] end connection 127.0.0.1:6462 (5 connections now open)
+2018-04-09T22:26:13.357+0800 I NETWORK  [conn10] end connection 127.0.0.1:6464 (4 connections now open)
+2018-04-09T22:26:13.362+0800 I NETWORK  [conn11] end connection 127.0.0.1:6466 (3 connections now open)
+2018-04-09T22:26:13.362+0800 I NETWORK  [conn7] end connection 127.0.0.1:6454 (2 connections now open)
+2018-04-09T22:26:16.259+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9315 #40 (3 connections now open)
+2018-04-09T22:26:16.286+0800 I NETWORK  [conn40] received client metadata from 127.0.0.1:9315 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v7.4.0, LE, mongodb-core: 3.0.4", application: { name: "MongoDB Compass Community" } }
+2018-04-09T22:26:17.423+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9320 #41 (4 connections now open)
+2018-04-09T22:26:18.434+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9322 #42 (5 connections now open)
+2018-04-09T22:26:19.456+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9326 #43 (6 connections now open)
+2018-04-09T22:26:20.478+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9328 #44 (7 connections now open)
+2018-04-09T22:28:28.151+0800 I COMMAND  [conn41] CMD: drop easy_shop.owners
+2018-04-09T22:28:28.153+0800 I STORAGE  [conn41] Finishing collection drop for easy_shop.owners (71b97bbf-0a74-4e69-a6eb-af6910c697da).
+2018-04-09T22:28:35.625+0800 I COMMAND  [conn42] CMD: drop easy_shop.ownners
+2018-04-09T22:28:35.626+0800 I STORAGE  [conn42] Finishing collection drop for easy_shop.ownners (a8b41bca-53a7-4248-b858-6cab8992b695).
+2018-04-09T22:28:40.622+0800 I COMMAND  [conn41] CMD: drop easy_shop.shops
+2018-04-09T22:28:40.622+0800 I STORAGE  [conn41] Finishing collection drop for easy_shop.shops (b990e785-9eca-485b-b3ba-cb2314afb96c).
+2018-04-09T22:28:52.155+0800 I STORAGE  [conn38] createCollection: easy_shop.owners with generated UUID: b0963c2a-7889-4349-a3e1-08bd93689fef
+2018-04-09T22:28:52.225+0800 I STORAGE  [conn38] createCollection: easy_shop.shops with generated UUID: 4a7b2ceb-58f3-4ada-acb5-da5fba59ae1e
+2018-04-09T22:30:08.861+0800 I NETWORK  [conn38] end connection 127.0.0.1:9302 (6 connections now open)
+2018-04-09T22:30:08.861+0800 I NETWORK  [conn39] end connection 127.0.0.1:9307 (5 connections now open)
+2018-04-09T22:30:17.607+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9449 #45 (6 connections now open)
+2018-04-09T22:30:17.630+0800 I NETWORK  [conn45] received client metadata from 127.0.0.1:9449 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:30:47.219+0800 I NETWORK  [conn45] end connection 127.0.0.1:9449 (5 connections now open)
+2018-04-09T22:30:56.032+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9465 #46 (6 connections now open)
+2018-04-09T22:30:56.053+0800 I NETWORK  [conn46] received client metadata from 127.0.0.1:9465 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:30:58.455+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9469 #47 (7 connections now open)
+2018-04-09T22:32:36.357+0800 I NETWORK  [conn47] end connection 127.0.0.1:9469 (5 connections now open)
+2018-04-09T22:32:36.357+0800 I NETWORK  [conn46] end connection 127.0.0.1:9465 (6 connections now open)
+2018-04-09T22:32:44.022+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9503 #48 (6 connections now open)
+2018-04-09T22:32:44.037+0800 I NETWORK  [conn48] received client metadata from 127.0.0.1:9503 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:32:46.001+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9508 #49 (7 connections now open)
+2018-04-09T22:33:19.114+0800 I COMMAND  [conn43] dropDatabase easy_shop - starting
+2018-04-09T22:33:19.114+0800 I COMMAND  [conn43] dropDatabase easy_shop - dropping 0 collections
+2018-04-09T22:33:19.145+0800 I COMMAND  [conn43] dropDatabase easy_shop - finished
+2018-04-09T22:33:24.368+0800 I STORAGE  [conn48] createCollection: easy_shop.owners with generated UUID: 72952b0b-4c5d-44d3-afaa-49b827c82314
+2018-04-09T22:33:24.414+0800 I STORAGE  [conn48] createCollection: easy_shop.shops with generated UUID: f1c5c1b5-89dd-492e-9aff-104b98b76f69
+2018-04-09T22:43:56.029+0800 I NETWORK  [conn48] end connection 127.0.0.1:9503 (6 connections now open)
+2018-04-09T22:43:56.029+0800 I NETWORK  [conn49] end connection 127.0.0.1:9508 (5 connections now open)
+2018-04-09T22:45:46.132+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9948 #50 (6 connections now open)
+2018-04-09T22:45:46.159+0800 I NETWORK  [conn50] received client metadata from 127.0.0.1:9948 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:45:50.688+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:9952 #51 (7 connections now open)
+2018-04-09T22:58:07.039+0800 I NETWORK  [conn50] end connection 127.0.0.1:9948 (6 connections now open)
+2018-04-09T22:58:07.041+0800 I NETWORK  [conn51] end connection 127.0.0.1:9952 (5 connections now open)
+2018-04-09T22:58:15.398+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:10350 #52 (6 connections now open)
+2018-04-09T22:58:15.425+0800 I NETWORK  [conn52] received client metadata from 127.0.0.1:10350 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T22:59:04.927+0800 I NETWORK  [conn52] end connection 127.0.0.1:10350 (5 connections now open)
+2018-04-09T22:59:13.643+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:10370 #53 (6 connections now open)
+2018-04-09T22:59:13.661+0800 I NETWORK  [conn53] received client metadata from 127.0.0.1:10370 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T23:17:14.717+0800 I NETWORK  [conn53] end connection 127.0.0.1:10370 (5 connections now open)
+2018-04-09T23:17:23.604+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:10758 #54 (6 connections now open)
+2018-04-09T23:17:23.615+0800 I NETWORK  [conn54] received client metadata from 127.0.0.1:10758 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T23:17:25.028+0800 I STORAGE  [conn54] createCollection: easy_shop.goods with generated UUID: c6b5dbf1-4817-4862-b71a-305ddf0be015
+2018-04-09T23:25:25.827+0800 I NETWORK  [conn54] end connection 127.0.0.1:10758 (5 connections now open)
+2018-04-09T23:25:36.101+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:11148 #55 (6 connections now open)
+2018-04-09T23:25:36.125+0800 I NETWORK  [conn55] received client metadata from 127.0.0.1:11148 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T23:25:43.576+0800 I NETWORK  [conn55] end connection 127.0.0.1:11148 (5 connections now open)
+2018-04-09T23:26:52.339+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:11181 #56 (6 connections now open)
+2018-04-09T23:26:52.350+0800 I NETWORK  [conn56] received client metadata from 127.0.0.1:11181 conn: { driver: { name: "nodejs", version: "3.0.4" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.16299" }, platform: "Node.js v8.9.0, LE, mongodb-core: 3.0.4" }
+2018-04-09T23:26:55.652+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:11186 #57 (7 connections now open)
+2018-04-09T23:29:07.930+0800 I NETWORK  [conn44] end connection 127.0.0.1:9328 (6 connections now open)
+2018-04-09T23:29:07.930+0800 I NETWORK  [conn43] end connection 127.0.0.1:9326 (5 connections now open)
+2018-04-09T23:29:07.930+0800 I NETWORK  [conn42] end connection 127.0.0.1:9322 (4 connections now open)
+2018-04-09T23:29:07.935+0800 I NETWORK  [conn40] end connection 127.0.0.1:9315 (3 connections now open)
+2018-04-09T23:29:07.935+0800 I NETWORK  [conn41] end connection 127.0.0.1:9320 (2 connections now open)
+2018-04-09T23:33:44.619+0800 I NETWORK  [conn56] end connection 127.0.0.1:11181 (1 connection now open)
+2018-04-09T23:33:44.619+0800 I NETWORK  [conn57] end connection 127.0.0.1:11186 (0 connections now open)
+2018-04-09T23:36:22.721+0800 I CONTROL  [thread59] Ctrl-C signal
+2018-04-09T23:36:22.722+0800 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2018-04-09T23:36:22.723+0800 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2018-04-09T23:36:22.728+0800 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2018-04-09T23:36:22.739+0800 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2018-04-09T23:36:22.888+0800 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2018-04-09T23:36:22.888+0800 I CONTROL  [consoleTerminate] now exiting
+2018-04-09T23:36:22.889+0800 I CONTROL  [consoleTerminate] shutting down with code:12

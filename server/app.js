@@ -6,6 +6,7 @@ var bodyParser = require('body-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
+var shopRouter = require('./routes/shop');
 var bannerRouter = require('./routes/banner');
 var goodsRouter = require('./routes/goods');
 
@@ -19,10 +20,11 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(bodyParser());
+app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
+app.use('/shop', shopRouter);
 app.use('/banner', bannerRouter);
 app.use('/goods', goodsRouter);
 

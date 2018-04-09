@@ -2,7 +2,9 @@ var express = require('express');
 var router = express.Router();
 
 var model = require('../models/base')
-var Ownner = model.Ownner
+var Owner = model.Owner
+var Shop = model.Shop
+var Goods = model.Goods
 
 var path = require('path');
 var multer  = require('multer')
@@ -38,13 +40,15 @@ router.post('/banner/:g_id/:s_id', upload.single('banner'), function(req, res, n
 
 router.get('/test1', function(req, res, next) {
     
-    Ownner.create({
+    Owner.create({
         name:'zhl', 
         tel:'15072357587',
         addr:'123',
         date:'2018-01-01',
         pswd:'5811430'
-    },(err,doc)=>{})
+    },(err,doc)=>{
+        console.log(doc)
+    })
 
     res.json({
         status:'ok'
@@ -52,15 +56,24 @@ router.get('/test1', function(req, res, next) {
   )
 });
 
-
-router.post('baseinfo/:s_id', function(req, res, next) {
+////////////////////////////////////
+router.post('/basicinfo/:s_id', function(req, res, next) {
     
-    console.log(req.body.price);
-    console.log(req.body.tag);
-    res.json({
-        status:'ok'
-    }
-  )
-});
+    Goods.create({
+        basic: {...req.body.basic}
+    },(err,doc)=>{
+        console.log(err)
+        console.log(doc)
+
+        Shop.update({_id: req.params.s_id},
+            {'$push': {goodsIdList: doc._id}},
+            (err, doc)=>{
+                res.json({
+                    status:'ok'
+                }
+        )
+    })
+})});
+
 
 module.exports = router;

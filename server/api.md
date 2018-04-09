@@ -1,3 +1,17 @@
+# 创建商店
+POST http://api.easyshop.com/shop
+数据
+{
+    name:'xxx',
+    owner:{
+        name:'zhouhualei', 
+        tel:'15072357587',
+        addr:'湖北武汉',
+        pswd:'5811430'
+        //date:'2018-01-01'
+    }
+}
+
 # 主页
 # banner  
 {
