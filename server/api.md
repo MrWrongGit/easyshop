@@ -46,3 +46,12 @@ GET http://api.easyshop.com/V1/:shop_id/home/category_list
 GET http://api.easyshop.com/V1/:shop_id/:category_id?limit=8  
 
 GET http://api.easyshop.com/V1/:shop_id/:category_id?limit=8&&offset=16
+
+
+
+
+
+# 上传商品虐缩图
+//POST http://api.easyshop.com/goods/thumbnail/:g_id/:shop_id/
+#上传商品
+POST http://api.easyshop.com/goods/:shop_id/

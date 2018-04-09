@@ -12,11 +12,13 @@
     
     "banner":[
         {
-            "url":"xxx",
+            "type":"goods",
+            "to":"xxx_id",
             "img":"xxx.jpg"
         },
         {
-            "url":"xxx",
+            "type":"category",
+            "to":"xxx_id",
             "img":"xxx.jpg"
         }
     ],
