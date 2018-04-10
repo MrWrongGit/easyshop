@@ -8,7 +8,9 @@ var Schema = mongoose.Schema
 const Shop = mongoose.model('shop', new  Schema({
     name:{type:String,require:true},
     ownerInfoId:{type:Schema.Types.ObjectId,require:true},
-    goodsIdList:[]
+    goodsIdList:[],
+    categoryIdList:[],
+
 }))
 
 const Owner = mongoose.model('owner', new Schema({
@@ -17,6 +19,11 @@ const Owner = mongoose.model('owner', new Schema({
     addr:{type:String,require:true},
     date:{type:Date,require:true},
     pswd:{type:String,require:true}
+}))
+
+const Category = mongoose.model('category', new Schema({
+    name:{type:String,require:true},
+    goodsIdList:[]
 }))
 
 const HomeBanner = mongoose.model('banner', new Schema({
